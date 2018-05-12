@@ -65,4 +65,4 @@ admin/fbcd3b2308d141e789604dd5ca95e740
 * Swarm 集群网络的创建与部署。
 * Swarm 的服务发现、负载均衡等，
 * 使用 Swarm 来配置跨主机容器网络，并在上面部署应用
-* [swarm Bypass the routing mesh](https://docs.docker.com/engine/swarm/ingress/#bypass-the-routing-mesh)# jenkins-play
+* [swarm Bypass the routing mesh](https://docs.docker.com/engine/swarm/ingress/#bypass-the-routing-mesh)
