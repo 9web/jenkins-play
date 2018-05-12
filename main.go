@@ -45,8 +45,8 @@ var redisClient *redis.Client
 const baseChangeURL = "https://go.googlesource.com/go/+/"
 
 func main() {
-	redisHost := os.Getenv("REDISHOST")
-	fmt.Println("redis host hihi", redisHost)
+	redis_host := os.Getenv("REDISHOST")
+	fmt.Println("redis host hihi", redis_host)
 	flag.Parse()
 	redisClient = redis.NewClient(&redis.Options{
 		Addr:     "redis_1:6379",
