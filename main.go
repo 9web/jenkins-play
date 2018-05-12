@@ -33,7 +33,7 @@ import (
 	"github.com/go-redis/redis"
 )
 
-// Command-line flags. hihi
+// Command-line flags.
 var (
 	httpAddr   = flag.String("http", ":8080", "Listen address")
 	pollPeriod = flag.Duration("poll", 5*time.Second, "Poll period")
